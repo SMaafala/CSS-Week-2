@@ -1,0 +1,119 @@
+
+body {
+    background-color: rgba(4, 133, 184, 0.9);
+}
+/* title might not need css */
+#title {
+    position: static;
+    border: 3px solid whitesmoke;
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    font-style: oblique;
+}
+
+.background-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 5;
+    background-origin: padding-box;
+}
+
+.bond-ape {
+    height: 450px; 
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    z-index: 1;
+    border-style: groove;
+}
+
+table {
+    font-family: 'arial', 'sans-serif';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+.bold {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Permanent Marker', 'cursive';
+    color: black;
+}
+
+h1{
+    font-family: 'Permanent Marker', 'cursive';
+    position: relative;
+    left: 40px;
+}
+
+nav.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 5px;
+
+}
+
+nav {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 20px;
+    padding-top: 15px;
+    text-align: center;
+    border-style: double;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+
+
+nav > a{
+display: inline-block;
+margin-left: 25px;
+margin-right: 25px;
+
+}
+
+p {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(11, 238, 200);
+}
+
+footer{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+
+}
+
+a:hover {
+    background-color: teal;
+  }
+
+  a:visited {
+    color: grey;
+    background-color: darkturquoise;
+  }
+
+  a:active {
+    background-color:darkgoldenrod
+  }
